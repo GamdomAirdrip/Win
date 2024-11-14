@@ -1,0 +1,108 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #171A28;
+}
+
+/* Center the image and form vertically in the container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2231;
+    border-radius: 8px;
+    padding: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Center image in .dice-image div */
+.dice-image {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.dice-image img {
+    width: 150px; /* Adjust the size as needed */
+}
+
+.login-form {
+    color: #fff;
+}
+
+.login-form h2 {
+    color: #00FF85;
+    margin-bottom: 10px;
+}
+.login-form h3{
+    color: #bee000;
+    margin-bottom: 20px;
+    align-content: baseline;
+
+}
+.login-form h5{
+    margin-bottom: 30px;
+    color: #ffffff;
+    size: 10px;
+    font-family: initial;
+}
+
+.login-form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #c7c7c7;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    margin-left: 0px;
+    border-radius: 4px;
+    background-color: #2C3144;
+    color: #fff;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.options a {
+    color: #00FF85;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.options label {
+    font-size: 0.9em;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00FF85;
+    color: #1E2231;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #00E07D;
+}
